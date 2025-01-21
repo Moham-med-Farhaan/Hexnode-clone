@@ -3,13 +3,14 @@ import PageService from "./page-service";
 import map from "lodash/map";
 import Navbar from "../components/nav";
 import Landing from "../sections/landing/landing";
+import Achievements from "../sections/achievements/list";
 function Home() {
   const ELEMENTS = [
     {
       component: <Landing />,
     },
     {
-      component: <div>helo</div>,
+      component: <Achievements />,
     },
     {
       component: <div>helo</div>,
