@@ -34,9 +34,10 @@ function LandingText() {
         <Stack flexDirection={"row"} justifyContent={"center"} gap={1}>
           {" "}
           <TextField
-            label="Email"
+            placeholder="Email"
             notched={false}
             color="black"
+            size="small"
             slotProps={{
               inputLabel: {
                 style: {
@@ -52,7 +53,7 @@ function LandingText() {
               },
             }}
           />
-          <Button variant="contained" color="error" sx={{ p: 2 }}>
+          <Button variant="contained" size="small" color="error" sx={{ p: 2 }}>
             Let's Try it Out!
           </Button>
         </Stack>

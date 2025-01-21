@@ -29,6 +29,8 @@ function Navbar() {
         width: "100%",
         backgroundColor: "background.default",
         p: 2,
+        position: "fixed",
+        top: 0,
       }}
     >
       <Stack
