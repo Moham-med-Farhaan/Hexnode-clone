@@ -29,6 +29,7 @@ function Navbar() {
         width: "100%",
         backgroundColor: "background.default",
         p: 2,
+        zIndex: 999,
         position: "fixed",
         top: 0,
       }}

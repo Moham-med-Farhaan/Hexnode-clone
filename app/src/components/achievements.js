@@ -1,9 +1,12 @@
-import { Card, CardContent, CardHeader, Stack } from "@mui/material";
+import { Card, CardContent, CardHeader, Link, Stack } from "@mui/material";
 import React from "react";
 
-function AchievementsCard({ title, content, others, sx }) {
+function AchievementsCard({ title, content, href, others, sx }) {
   return (
+    // <Link href="https://www.hexnode.com/blogs/mitsogo-hexnode-named-a-leader-in-idc-marketscape-worldwide-uem-software-for-apple-devices-2024-vendor-assessment/">
     <Card
+      component={Link}
+      href={href}
       sx={{
         ...sx,
         width: "30%",
@@ -33,6 +36,7 @@ function AchievementsCard({ title, content, others, sx }) {
         {others}
       </CardContent>
     </Card>
+    // </Link>
   );
 }
 
