@@ -13,6 +13,9 @@ function Achievements() {
       alignItems={"space-between"}
     >
       <AchievementsCard
+        href={
+          "https://www.hexnode.com/blogs/mitsogo-hexnode-named-a-leader-in-idc-marketscape-worldwide-uem-software-for-apple-devices-2024-vendor-assessment/"
+        }
         title={
           <img src="https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Faccolades%2Fidc.png&w=96&q=75" />
         }
@@ -26,6 +29,9 @@ function Achievements() {
         sx={{ backgroundColor: "#cccccc", height: 200 }}
       />
       <AchievementsCard
+        href={
+          "https://www.hexnode.com/blogs/hexnode-listed-as-a-notable-vendor-in-gartner-midmarket-context-magic-quadranttm-for-unified-endpoint-management-tools/"
+        }
         title={
           <img src="https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Faccolades%2Fgartner.png&w=128&q=75" />
         }
@@ -38,6 +44,9 @@ function Achievements() {
         sx={{ backgroundColor: "#cccccc", height: 200 }}
       />
       <AchievementsCard
+        href={
+          "https://www.hexnode.com/blogs/hexnode-included-in-the-unified-endpoint-management-landscape-report/"
+        }
         title={
           <img src="https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Faccolades%2Fforrester.png&w=256&q=75" />
         }

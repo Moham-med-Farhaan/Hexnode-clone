@@ -4,6 +4,8 @@ import map from "lodash/map";
 import Navbar from "../components/nav";
 import Landing from "../sections/landing/landing";
 import Achievements from "../sections/achievements/list";
+import WhyUs from "../sections/why/list";
+import Elaborate from "../sections/elaborate/list";
 function Home() {
   const ELEMENTS = [
     {
@@ -13,10 +15,10 @@ function Home() {
       component: <Achievements />,
     },
     {
-      component: <div>helo</div>,
+      component: <WhyUs />,
     },
     {
-      component: <div>helo</div>,
+      component: <Elaborate />,
     },
   ];
   const RESULTANT_CHILDREN = map(ELEMENTS, (EL) => {
