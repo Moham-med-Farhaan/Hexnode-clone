@@ -23,6 +23,7 @@ function WhyUs() {
   return (
     <Stack
       p={2}
+      id="why-node"
       gap={2}
       height={"100%"}
       justifyContent={"space-between"}
@@ -48,6 +49,11 @@ function WhyUs() {
       </Stack>
       <Stack
         flexDirection={"row"}
+        // sx={{
+        //   flexDirection: { lg: "row", xl: "row" },
+        //   width: { sm: "100%", xs: "100%" },
+        //   justifyContent: { lg: "space-between", xl: "space-between" },
+        // }}
         justifyContent={"space-between"}
         flexWrap={"wrap"}
         width={"100%"}
