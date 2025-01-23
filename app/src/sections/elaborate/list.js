@@ -58,6 +58,7 @@ function Elaborate() {
   return (
     <Stack
       p={2}
+      id={"features"}
       gap={2}
       height={"100%"}
       justifyContent={"space-between"}
@@ -92,7 +93,7 @@ function Elaborate() {
         {DATA.map((data) => {
           return (
             <CardMedia
-              sx={{ width: "30%" }}
+              sx={{ width: { lg: "30%", xl: "30%" } }}
               key={data.img}
               imgUrl={data.img}
               title={

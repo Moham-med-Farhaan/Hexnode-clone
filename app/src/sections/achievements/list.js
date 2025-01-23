@@ -5,12 +5,22 @@ import AchievementsCard from "../../components/achievements";
 function Achievements() {
   return (
     <Stack
-      sx={{ backgroundColor: "#1a1c2b" }}
-      flexDirection={"row"}
+      sx={{
+        backgroundColor: "#1a1c2b",
+        flexDirection: { lg: "row", xl: "row" },
+
+        width: { sm: "100%", xs: "100%" },
+        gap: { sm: 2, xs: 2 },
+        p: { sm: 2, xs: 2 },
+      }}
+      // flexDirection={"row"}
+
       p={2}
-      height={"100%"}
-      justifyContent={"space-between"}
-      alignItems={"space-between"}
+      width={"100%"}
+      flexWrap={"wrap"}
+      // height={"100%"}
+      // justifyContent={"space-between"}
+      // alignItems={"space-between"}
     >
       <AchievementsCard
         href={
@@ -26,7 +36,11 @@ function Achievements() {
       />
       <Divider
         orientation="vertical"
-        sx={{ backgroundColor: "#cccccc", height: 200 }}
+        sx={{
+          backgroundColor: "#cccccc",
+          height: 200,
+          display: { sm: "none", xs: "none", lg: "inherit", xl: "inherit" },
+        }}
       />
       <AchievementsCard
         href={
@@ -41,7 +55,11 @@ function Achievements() {
       />
       <Divider
         orientation="vertical"
-        sx={{ backgroundColor: "#cccccc", height: 200 }}
+        sx={{
+          backgroundColor: "#cccccc",
+          height: 200,
+          display: { sm: "none", xs: "none", lg: "inherit", xl: "inherit" },
+        }}
       />
       <AchievementsCard
         href={

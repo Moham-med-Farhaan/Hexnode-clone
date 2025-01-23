@@ -9,7 +9,7 @@ function AchievementsCard({ title, content, href, others, sx }) {
       href={href}
       sx={{
         ...sx,
-        width: "30%",
+        width: { sm: "100%", xs: "100%", lg: "30%", xl: "30%" },
         borderRadius: 2,
         cursor: "pointer",
         transition: "all 0.3s ease-in-out",

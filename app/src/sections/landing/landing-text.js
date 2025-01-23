@@ -11,9 +11,9 @@ function LandingText() {
       gap={20}
       textAlign={"left"}
       //   p={3}
-      //   sx={{ backgroundColor: "red" }}
+      sx={{ width: { lg: "40%", sm: "40%", xs: "40%", xl: "40%" } }}
     >
-      <Stack gap={4} p={6}>
+      <Stack gap={4} p={6} width={"100%"}>
         <Stack>
           <Typography color="textDisabled" variant="subtitle1">
             Unified Endpoint Management

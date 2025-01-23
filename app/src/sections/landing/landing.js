@@ -12,7 +12,8 @@ function Landing() {
       <Stack
         width={"100%"}
         height={"100%"}
-        flexDirection={"row-reverse"}
+        sx={{ flexDirection: { lg: "row-reverse" } }}
+        // flexDirection={"row-reverse"}
         flexWrap={"wrap"}
         gap={5}
       >

@@ -6,6 +6,9 @@ import Landing from "../sections/landing/landing";
 import Achievements from "../sections/achievements/list";
 import WhyUs from "../sections/why/list";
 import Elaborate from "../sections/elaborate/list";
+import MultiSection from "../sections/multi/list";
+import CustomersSay from "../sections/customers-say/list";
+import FinalPitch from "../sections/final-pitch/list";
 function Home() {
   const ELEMENTS = [
     {
@@ -19,6 +22,15 @@ function Home() {
     },
     {
       component: <Elaborate />,
+    },
+    {
+      component: <MultiSection />,
+    },
+    {
+      component: <CustomersSay />,
+    },
+    {
+      component: <FinalPitch />,
     },
   ];
   const RESULTANT_CHILDREN = map(ELEMENTS, (EL) => {
